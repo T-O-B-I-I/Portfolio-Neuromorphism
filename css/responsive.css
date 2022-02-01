@@ -1,0 +1,87 @@
+
+
+
+
+/* media queries  */
+
+@media (max-width: 1200px) {
+    
+    html{
+        font-size: 55%;
+    }
+
+}
+@media (max-width: 991px) {
+
+    body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("C:/Users/INTEL/Desktop/learn/portfolio/images/okkkkkkkkkkkkkkkkkk.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+   header{
+       left:-120%;
+   }
+
+   .container{
+    align-items: center;
+    margin: 5px;
+    height:82.5rem;
+    width: 700px;
+    background:rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    border-radius: 1rem;
+    overflow: hidden;
+
+   }
+
+   #menu{
+       display: block;
+   }
+
+   header.toggle{
+    left:0%;
+   }
+
+   body{
+       padding:0;
+   }
+       
+}
+
+@media (max-width: 768px) {
+
+    html{
+        font-size: 50%;
+    }
+     
+}
+
+@media (max-width: 400px) {
+
+    body{
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: Quicksand, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("tumblr_nf7hm0aXHu1u3g949o1_500.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:5.5rem;
+
+    }
+
+    .header{
+    display: none;
+    }
+    header{
+        width: 100vw;
+    }
+
+}
+
